@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+}
+
+.card-img-wrapper {
+  width: 10%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-img-top {
+  width: 30vh;
+  height: 25vh;
+}
+
+.badge-best-seller {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5500; /* Warna maroon */
+  color: #ffffff;
+  padding: 5px 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 8px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 0.5px;
+  z-index: 1; /* Pastikan berada di atas gambar */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi */
+}
