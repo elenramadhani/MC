@@ -30,3 +30,7 @@
   z-index: 1; /* Pastikan berada di atas gambar */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi */
 }
+.container-fluid my-15 mt-5 .ayam{
+  width: 2rem;
+  height: 4rem;
+}
